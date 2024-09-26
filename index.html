@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio - [Your Name]</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Landing Section with Background Video -->
+  <section id="home" class="landing-section">
+    <video autoplay muted loop id="bg-video">
+      <source src="background1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="container">
+      <!-- Profile Picture -->
+      <img src="self.png" alt="Your Name" class="profile-photo"> <!-- Add your photo here -->
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm SABORNO CHAKRABORTY, a FRONT END DEV.<br/> Trying to do better </p>
+      <a href="#projects" class="btn">View My Projects</a>
+
+      <!-- Programming Languages Section -->
+      <div class="programming-languages">
+        <h2>Languages I Know</h2>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+          <li>C</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Saborno Chakraborty, a passionate Front End Developer with a keen eye for detail and a love for creating seamless user experiences. 
+        With a strong foundation in HTML, CSS, and JavaScript, I thrive in the fast-paced world of web development, always staying up-to-date with the latest trends 
+        and technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <p>Here are some of the projects I've worked on:</p>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3>Flappy Bird Game</h3>
+          <p>Flappy Bird: A challenging yet addictive game where you navigate a bird through obstacles by tapping to flap its wings, built using HTML, CSS, and JavaScript, 
+            with pixel-perfect graphics and smooth animations, testing your reflexes and skills.</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3>Object detection using opencv</h3>
+          <p>Object Detection using OpenCV: A computer vision technique that enables real-time identification and tracking of objects within images and videos, utilizing OpenCV's machine learning algorithms and libraries,
+             such as Haar cascades and YOLO, to detect and classify objects with high accuracy</p>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <h3>College Website</h3>
+          <p>A college website clone built using HTML, CSS, and JS, replicating the original's layout, design, and functionality, showcasing my front-end development skills, with a responsive design, interactive elements,
+             and dynamic content, demonstrating my ability to recreate a complex web application.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!<!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+      
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <p>Email: <a href="mailto:saborno.ck@gmail.com">saborno.ck@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919748906266">+91 9748906266</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/saborno.ck?igsh=NGRvZnE3d3J1Mjdl" target="_blank">saborno.ck</a></p>
+      </div>
+      
+      <!-- Contact Form -->
+      <form action="submit_form.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 SABORNO. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
